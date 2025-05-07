@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deja Brew</title>
+    <link rel="stylesheet" href="about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-sucess">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Deja Brew</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="merch.html">Merch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+                </ul>
+                <button class="btn btn-outline-light ms-3" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                <button class="btn btn-light ms-2" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="signupModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
+  <div class="overlay"></div>
+    <div class="content-wrapper">
+        <p>
+          Deja Brew is a family business that was founded by Leo James in 1960 and has been run by his descendants ever since. <br>
+          Leo was working as a farmer and learned a lot about coffee beans as it was one of the crops being grown. <br>
+          He would experiment with the beans and other ingredients during his breaks and when he was on leave until he <br> made a cup of coffee that he had never tasted his entire life.
+          He would give his co-workers a sample during the breaks and get their reviews. <br>
+          A woman he worked with gave him some tips on how he should start his own business but ended up running it together. <br>
+          As time went on by, they got married using their life earnings from the coffee shop. <br>
+          They had children who helped them keep their shop with loyal customers. <br>
+          Deja Brew is currently open in the town of Mystic Falls and is still under the governance of the grandkids. <br>
+          They are still on the aim to help their grandfather achieve his dream of blessing the world with his creation. 
+        </p>
+      </div>
+    <footer>
+        <p>5432, honeymoon avenue, Mystic Falls</p>
+        <p>Email: dejabrew@gmail.com | Phone : +267-555-4567</p>
+        <p style="margin-top: 10px;">© 2025 Deja Brew. All rights reserved.</p>
+    </footer>     
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
