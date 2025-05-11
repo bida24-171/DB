@@ -4,7 +4,7 @@
 }
 .nav-item .nav-link {
     transition: all 0.3s;
-    color: black;
+    color: white;
 }
 .nav-item .nav-link:hover{
     background-color: white;
@@ -41,14 +41,3 @@ body::before {
     cursor: pointer;
     transition: transform 0.3s;
 }
-footer{
-    position: fixed;
-    bottom: 0;
-    width:100%;
-    background-color: brown;
-    color:white;
-    text-align:center;
-    font-weight:bold;
-    padding:10px;
-    font-size: 16px;
-  }
