@@ -11,7 +11,12 @@
     color: brown !important;
     border-radius: 5px;
     padding: 5px 10px;
-}
+}    
+.navbar-brand img {
+   max-height: 30px;
+   width: auto; 
+} 
+
 body{
     background: transparent;
 }
