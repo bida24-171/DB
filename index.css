@@ -2,16 +2,24 @@
     margin: 0;
     padding: 0;
 }
+
 .nav-item .nav-link {
     transition: all 0.3s;
     color: white;
 }
+
 .nav-item .nav-link:hover{
     background-color: white;
     color: brown !important;
     border-radius: 5px;
     padding: 5px 10px;
-}    
+}  
+
+.navbar-brand img {
+   max-height: 30px;
+   width: auto; 
+} 
+
 body::before {
   content: "";
   position: fixed;
